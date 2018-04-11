@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var expressionInput: UITextField!
+    @IBOutlet weak var evaluateButton: UIButton!
+    @IBOutlet weak var resultText: UILabel!
+    
+    @IBAction func executeEvaluate(_ sender: UIButton) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

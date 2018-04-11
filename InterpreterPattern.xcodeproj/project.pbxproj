@@ -54,6 +54,7 @@
 		8B776704207EA62F00378B19 /* InterpreterPattern */ = {
 			isa = PBXGroup;
 			children = (
+				8B776717207EB56700378B19 /* Interpret */,
 				8B776705207EA62F00378B19 /* AppDelegate.swift */,
 				8B776707207EA62F00378B19 /* ViewController.swift */,
 				8B776709207EA62F00378B19 /* Main.storyboard */,
@@ -62,6 +63,13 @@
 				8B776711207EA63300378B19 /* Info.plist */,
 			);
 			path = InterpreterPattern;
+			sourceTree = "<group>";
+		};
+		8B776717207EB56700378B19 /* Interpret */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interpret;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
