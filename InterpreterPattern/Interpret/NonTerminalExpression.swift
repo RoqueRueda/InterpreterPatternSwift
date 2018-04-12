@@ -10,8 +10,8 @@ import UIKit
 
 class NonTerminalExpression: NSObject, AbstractExpression {
     
-    private var prev : AbstractExpression
-    private var next : AbstractExpression
+    var prev : AbstractExpression
+    var next : AbstractExpression
     
     init(withExpressions prev: AbstractExpression, next: AbstractExpression) {
         self.prev = prev
