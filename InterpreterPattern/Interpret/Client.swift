@@ -32,6 +32,7 @@ class Client: NSObject {
         for character in stringExpression {
             if isOperand(character: character) {
                 let number = TerminalExpression(withNumber: currentNumber)
+                currentNumber = ""
                 currentExpressions.append(number)
                 
                 let operand = getNonTerminalExpression(operand: character)
@@ -71,7 +72,7 @@ class Client: NSObject {
     func reduceExpressions(expressionSack: inout [AbstractExpression?]) {
         let operationContext = InterpreterContext()
         var expressionCount = expressionSack.count;
-        while expressionCount == 1 {
+        while expressionCount != 1 {
             let currentExpression = expressionSack.removeFirst()
             if currentExpression is TerminalExpression {
                 if expressionSack.count > 0 {

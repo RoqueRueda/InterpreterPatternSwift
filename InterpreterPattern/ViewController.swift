@@ -15,7 +15,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var resultText: UILabel!
     
     @IBAction func executeEvaluate(_ sender: UIButton) {
-        
+        let client = Client()
+        resultText.text = client.parseString(input: expressionInput.text!).description
     }
     
     override func viewDidLoad() {
