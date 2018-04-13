@@ -10,12 +10,17 @@ import UIKit
 
 class NonTerminalExpression: NSObject, AbstractExpression {
     
-    var prev : AbstractExpression
-    var next : AbstractExpression
+    var prev : AbstractExpression?
+    var next : AbstractExpression?
     
-    init(withExpressions prev: AbstractExpression, next: AbstractExpression) {
+    init(withExpressions prev: AbstractExpression?, next: AbstractExpression?) {
         self.prev = prev
         self.next = next
+    }
+    
+    override init() {
+        prev = nil
+        next = nil
     }
     
     func interprete(ctx: InterpreterContext) -> Double {

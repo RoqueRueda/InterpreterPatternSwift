@@ -20,6 +20,7 @@
 		8B815B99207FCE5C0079E49A /* SubstractExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B815B98207FCE5C0079E49A /* SubstractExpression.swift */; };
 		8B815B9B207FD1970079E49A /* MultiplyExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B815B9A207FD1970079E49A /* MultiplyExpression.swift */; };
 		8B815B9D207FD4760079E49A /* DivisionExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B815B9C207FD4760079E49A /* DivisionExpression.swift */; };
+		8B815B9F207FEE140079E49A /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B815B9E207FEE140079E49A /* Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		8B815B98207FCE5C0079E49A /* SubstractExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstractExpression.swift; sourceTree = "<group>"; };
 		8B815B9A207FD1970079E49A /* MultiplyExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyExpression.swift; sourceTree = "<group>"; };
 		8B815B9C207FD4760079E49A /* DivisionExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionExpression.swift; sourceTree = "<group>"; };
+		8B815B9E207FEE140079E49A /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				8B815B98207FCE5C0079E49A /* SubstractExpression.swift */,
 				8B815B9A207FD1970079E49A /* MultiplyExpression.swift */,
 				8B815B9C207FD4760079E49A /* DivisionExpression.swift */,
+				8B815B9E207FEE140079E49A /* Client.swift */,
 			);
 			path = Interpret;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				8B815B97207FCC780079E49A /* AddExpression.swift in Sources */,
 				8B815B9B207FD1970079E49A /* MultiplyExpression.swift in Sources */,
 				8B776708207EA62F00378B19 /* ViewController.swift in Sources */,
+				8B815B9F207FEE140079E49A /* Client.swift in Sources */,
 				8B77671D207EBC3600378B19 /* TerminalExpression.swift in Sources */,
 				8B77671F207EBFA000378B19 /* NonTerminalExpression.swift in Sources */,
 				8B776719207EBA6700378B19 /* AbstractExpression.swift in Sources */,

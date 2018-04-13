@@ -9,5 +9,7 @@
 import UIKit
 
 class InterpreterContext: NSObject {
-
+    
+    var hasError = false
+    
 }
